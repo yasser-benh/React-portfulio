@@ -1,0 +1,107 @@
+.btn-standerd { 
+    background-color: #0077FF;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 50px;
+    border: transparent;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.btn-standerd:hover { 
+    background-color: white;
+    color: #0077FF;
+    border: 1px solid #0077FF;
+}
+.btn-standerd:active {
+    transform: translateY(3px);
+}
+
+.btn-hover-eff {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 50px;
+    border: 1px solid #0077FF;
+    color: #0077FF;
+    background-color: white;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+   
+}
+
+.download-icone {
+    width: 1.5rem;
+    height: 1.3rem;
+}
+.btn-hover-eff:hover {
+    background-color: #0077FF;
+    color: white;
+    border: transparent;
+}
+.btn-hover-eff:hover .download-icone {
+   
+    animation-name: download;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes download {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    80% {
+        transform: translateY(-5px);
+        opacity: 1;
+    }
+}
+
+.btn-selected-active{
+    background-color: #0077FF;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 50px;
+    border: transparent;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+
+}
+
+.btn-unselected {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 50px;
+    border: 1px solid #0077FF;
+    color: #0077FF;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+
+}

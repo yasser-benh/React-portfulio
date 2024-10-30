@@ -1,0 +1,30 @@
+.prograss-bar-fill-container {
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    height: 20px;
+    margin-top: 1rem;
+  }
+.prograss-bar-fill-1 {
+    height: 100%;
+    width: 90%;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    
+}
+
+
+.prograss-bar-fill-2 {
+    height: 100%;
+    width: 70%;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    transition: width 0.4s ease;
+}
+.prograss-bar-fill-3 {
+    height: 100%;
+    width: 50%;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    transition: width 0.4s ease;
+}

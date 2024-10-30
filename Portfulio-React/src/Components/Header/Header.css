@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Electrolize&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100wh;
+    height: 13rem;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.navbar-logo {
+    height: 100%;
+    width: 25%;
+
+}
+.logo { 
+    height: 100%;
+    width: 25%;
+    margin-left: 5rem;
+}
+.navbar-links {
+    display: flex;
+    gap: 3rem;
+  
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    width: 8rem;
+    height: 3rem;
+    transition: all 0.3s ease-in;
+    font-size: 1.1rem;
+    
+}
+.links-active { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color:#0077FF;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    
+
+}
+.navbar-button {
+    margin-right: 5rem;
+}

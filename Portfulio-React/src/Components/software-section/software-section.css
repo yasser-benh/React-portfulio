@@ -1,0 +1,23 @@
+.software-section-container {
+    background-color: lightgrey;
+    width: 100%;
+    height: 10rem;
+}
+.software-logos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+.software-imgs{
+    width: 20rem;
+    filter: opacity(0.3);
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+.software-imgs:hover {
+    filter: opacity(1);
+}

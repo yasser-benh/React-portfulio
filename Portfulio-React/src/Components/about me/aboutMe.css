@@ -1,0 +1,73 @@
+.about-me-container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6rem;
+    height: max-content;
+    height: 50rem;
+    
+
+}
+
+.about-me-description {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 38rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10rem;
+
+
+}
+.about-me-description h4 {
+    color: #0077FF;
+}
+.about-me-description h1 { 
+    font-size: 3rem;
+}
+.about-me-description span { 
+    color: #0077FF;
+    font-weight: 700;
+    font-size: 4rem;
+}
+   
+.about-me-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 2rem;
+    
+}
+
+.about-me-img-container {
+    height: 90%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.about-me-image {
+    width: 36rem;
+    height: 36rem;
+    border-radius:50%;
+    border: 1px solid #F2F2F2;
+    margin-top: -7rem;
+}
+.prograss-bar-container {
+    margin-top: 2rem;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.prograss-bar-container h3{
+    margin-top: 2rem;
+
+}
