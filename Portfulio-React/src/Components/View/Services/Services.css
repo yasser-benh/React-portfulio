@@ -1,0 +1,41 @@
+.services_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+.services_main_container {
+    margin: 10rem auto;
+}
+.services_title {
+    display: flex;
+    flex-direction: column;
+    gap: rem;
+    width: 33%;
+}
+.services_title h4 {
+    color: #0078FF;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.services_title span {
+    color: #0078FF;
+    font-size: 2.5rem;
+}
+.services_title h1 {
+    font-size: 2.5rem;
+}
+.services_title p {
+    font-weight: 300;
+    padding: 10px;
+}
+.swiper {
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+    
+
+}

@@ -1,10 +1,14 @@
 .about-me-container { 
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 6rem;
-    height: max-content;
+    gap: 7rem;
     height: 50rem;
+    
+    width: 90%;
+    margin: 8rem auto;
+    
+    
+    
     
 
 }
@@ -14,12 +18,13 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    width: 38rem;
-    height: 40rem;
+    width: 35rem;
+    height: 60rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 10rem;
+  
 
 
 }
@@ -32,7 +37,7 @@
 .about-me-description span { 
     color: #0077FF;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3rem;
 }
    
 .about-me-links {
@@ -46,11 +51,11 @@
 
 .about-me-img-container {
     height: 90%;
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    margin-top: 6rem;
 }
 
 .about-me-image {

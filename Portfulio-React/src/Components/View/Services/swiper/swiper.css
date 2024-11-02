@@ -1,0 +1,40 @@
+.card_icone {
+    padding: 20px;
+}
+.card_container {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    width: 391px;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5rem;
+    transition: linear 0.2s;
+    cursor: pointer;
+    
+}
+.card_container:hover {
+    border: 1px solid #0078FF;
+    background-color: #0078FF;
+    color: white;
+}
+.card_container:hover .leran-more {
+    color: white;
+}
+.card_description {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px 20px;
+}
+.card_description h3 {
+    width: 70%;
+}
+.leran-more {
+    text-decoration: none ;
+    color: #0078FF;
+
+}

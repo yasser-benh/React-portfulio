@@ -1,0 +1,60 @@
+.prograss-bar-fill-container {
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    height: 20px;
+    margin-top: 1rem;
+    overflow: hidden;
+    transition: all 1s ease-in;
+  }
+.prograss-bar-fill-1 {
+    height: 100%;
+    width: 90%;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    animation-name: prograssbar;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes prograssbar {
+    0%{
+        width: 0%;
+    }
+    100% {width: 90%;}
+}
+
+
+
+.prograss-bar-fill-2 {
+    height: 100%;
+    width: 70%;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    animation-name: prograssbar2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes prograssbar2 {
+    0%{
+        width: 0%;
+    }
+    100% {width: 70%;}
+}
+
+.prograss-bar-fill-3 {
+    height: 100%;
+    width: 50%;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    transition: width 0.4s ease;
+    animation-name: prograssbar3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes prograssbar3 {
+    0%{
+        width: 0%;
+    }
+    100% {width: 50%;}
+}
