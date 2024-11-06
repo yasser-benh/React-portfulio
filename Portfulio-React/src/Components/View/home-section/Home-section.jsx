@@ -24,6 +24,6 @@ export default function Home () {
             
 
         </div>
-        <Software className='softwer'/>
+        
     </div>)
 }

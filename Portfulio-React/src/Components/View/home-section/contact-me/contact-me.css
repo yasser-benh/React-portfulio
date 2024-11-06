@@ -1,0 +1,103 @@
+.contact-me-main-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-me-main-container h3 {
+    color: #0077FF;
+    font-weight: 400;
+    padding: 2rem;
+}
+.contact-me-main-container h1 {
+    font-size: 3rem;
+    
+}
+.contact-me-details {
+    background-color: violet;
+    width: 30%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-me-details-top {
+    padding: 20px;
+
+}
+.contact-me-discription-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 2rem auto;
+}
+
+
+.contact-me-conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 4rem;
+    background-color: #0077ffc2;
+    border-radius: 10px;
+    height: 50%;
+
+
+}
+.contact-me-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact-me-inputs Input {
+    height: 3rem;
+    outline: none;
+}
+Input:focus {
+    transform: scale(1.1);
+}
+.full-name-inputs {
+    display: flex;
+    gap: 1rem;
+}
+.full-name-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: rgb(227, 4, 4);
+    font-weight: 600;
+}
+.quetion-inputs {
+    width: 100%;
+}
+.question-select {
+    width: 100%;
+    height: 3rem;
+}
+.checkbox {
+    color: white ;
+}
+.checkbox-terms {
+    text-decoration: underline;
+    color: #063b77;
+}
+.contact-me-submit {
+    width: 50%;
+    height: 3.7rem;
+    border-radius: 20px;
+    background-color: #063b77b0;
+    color: white;
+    font-size: 1.3rem;
+    border: transparent;
+    transition:cubic-bezier(0.86, 0, 0.07, 1)  0.3s ;
+    cursor: pointer;
+}
+.contact-me-submit:hover {
+    background-color: #052243;
+    letter-spacing: 1px;
+}

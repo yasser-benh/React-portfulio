@@ -4,6 +4,7 @@ import AboutMe from "./Components/View/about me/aboutMe"
 import Header from './Components/Header/Header'
 import Home from "./Components/View/home-section/Home-section"
 import Services from "./Components/View/Services/Services"
+import ContactMe from "./Components/View/home-section/contact-me/Contact-me"
 
 function App() {
 
@@ -25,6 +26,10 @@ function App() {
     path:'/Services',
     element:<Services/>
   },
+  {
+    path:'/Contact-me',
+    element:<ContactMe/>
+  }
 ]
  
 

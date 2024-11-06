@@ -2,6 +2,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import {Link} from 'react-router-dom'
 import icone from "../../../../../imgs/front-development-1-1 1.svg"
+import { GrFormNextLink } from "react-icons/gr";
+import { GrFormPreviousLink } from "react-icons/gr";
+
+
+
 import './swiper.css'
 import 'swiper/css';
 
@@ -37,16 +42,16 @@ export default function SwiperSection () {
         },
       ];
 
-  return (
+  return (<>
       
-
+    
     <Swiper
       modules={[Navigation]}   
       spaceBetween={50}
       slidesPerView={3}
       navigation={{
-        nextEl:'',
-        prevEl:''
+        nextEl:'.next-btn',
+        prevEl:'.prev-btn',
       }}
       pagination={{ clickable: true }}
       onSlideChange={() => console.log('slide change')}
@@ -54,7 +59,7 @@ export default function SwiperSection () {
       
     
     >
-      
+       
         {
             slider.map((slider)=> (<SwiperSlide key={slider.id}>
                 <div className='card_container'>
@@ -66,12 +71,18 @@ export default function SwiperSection () {
                     </div>
                     
                 </div>
+                
             </SwiperSlide>))
         }
      
-      
+        
     </Swiper>
+    <div className='swiper-btns-container'>
+      <button className='prev-btn'><GrFormPreviousLink className='prev-btn-icone'/></button>
+      <button className='next-btn'><GrFormNextLink className='next-btn-icone'/></button>
+    </div>
+    
       
   
-  );
+    </>);
 };
