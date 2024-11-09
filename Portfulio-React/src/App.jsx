@@ -1,12 +1,15 @@
 import {Route , Routes} from "react-router-dom"
 import './App.css'
-import AboutMe from "./Components/View/about me/aboutMe"
+import AboutMe from "./View/about me/aboutMe"
 import Header from './Components/Header/Header'
-import Home from "./Components/View/home-section/Home-section"
-import Services from "./Components/View/Services/Services"
-import ContactMe from "./Components/View/home-section/contact-me/Contact-me"
+import Home from "./View/home-section/Home-section"
+import Services from "./View/Services/Services"
+import ContactMe from './View/contact-me/Contact-me'
+import Footer from "./Components/Header/Footer/Footer"
 
 function App() {
+  
+
 
   const routesArr =[{
     path:'/',
@@ -18,7 +21,7 @@ function App() {
   },
   
   {
-    path:'/about-me',
+    path:'/AboutMe',
     element:<AboutMe/>
   },
 
@@ -27,21 +30,23 @@ function App() {
     element:<Services/>
   },
   {
-    path:'/Contact-me',
+    path:'/ContactMe',
     element:<ContactMe/>
   }
 ]
  
 
   return (
-    <main>
+    <main className="main-app-container">
     <Header/>
+    <div className="routes-conatiner">
     <Routes>
       {
         routesArr.map((route , index)=> <Route path={route.path} element={route.element} key={index}/>)
       }
       </Routes>
-     
+      </div>
+    <Footer/>
     </main>
   )
 }

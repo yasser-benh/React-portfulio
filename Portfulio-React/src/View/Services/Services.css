@@ -8,18 +8,19 @@
 
 }
 .services_main_container {
-    margin: 10rem auto;
+    margin: 2rem auto;
 }
 .services_title {
     display: flex;
     flex-direction: column;
-    gap: rem;
-    width: 33%;
+    width:38%;
+
 }
 .services_title h4 {
     color: #0078FF;
     font-weight: 900;
     font-size: 1.4rem;
+    padding: 10px;
 }
 .services_title span {
     color: #0078FF;
@@ -27,15 +28,18 @@
 }
 .services_title h1 {
     font-size: 2.5rem;
+    padding: 10px;
 }
 .services_title p {
     font-weight: 300;
     padding: 10px;
+    width: 90%;
+    margin: auto;
 }
 .swiper {
-    margin: 5rem;
+    margin: 4rem ;
     display: flex;
     align-items: center;
-    
-
+    justify-content: center;
+    width: 90%;
 }

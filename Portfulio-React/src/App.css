@@ -3,5 +3,17 @@
     padding: 0;
 
 }
+.main-app-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100vh;
+ 
+
+}
+.routes-conatiner {
+    height: 80%;
+}
+
 
   

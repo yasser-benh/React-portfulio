@@ -4,13 +4,13 @@
 .card_container {
     border: 1px solid #DDDDDD;
     border-radius: 10px;
-    width: 391px;
+    width: 90%;
     height: 400px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 5rem;
+    gap: 2rem;
     transition: linear 0.2s;
     cursor: pointer;
     
@@ -45,6 +45,7 @@
     position: absolute;
     top: 0;
     right: 170px;
+    
 }
 .prev-btn {
     width: 50px;

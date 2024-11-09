@@ -1,0 +1,127 @@
+{
+  "servecis": [
+    {
+      "id": "1",
+      "title": "Website / App UX / UI Design",
+      "description": "Creating engaging digital experiences for websites and apps through UX/UI design",
+      "language": "en"
+    },
+    {
+      "id": "2",
+      "title": "Strategic Marketing and Creative Content",
+      "description": "Elevating brands and engagement through strategic marketing and creative content",
+      "language": "en"
+    },
+    {
+      "id": "3",
+      "title": "Multivendor E-commerce Website Solutions",
+      "description": "Unlocking the world of multivendor e-commerce websites",
+      "language": "en"
+    },
+    {
+      "id": "4",
+      "title": "Brand Strategy Development and Art Direction",
+      "description": "Diving into comprehensive brand strategy development and offering expertise in art direction",
+      "language": "en"
+    },
+    {
+      "id": "5",
+      "title": "User Experience Optimization",
+      "description": "Analyzing and improving user journeys to maximize engagement and conversion",
+      "language": "en"
+    },
+    {
+      "id": "6",
+      "title": "Interactive Prototyping",
+      "description": "Creating interactive prototypes to test and validate ideas before final development",
+      "language": "en"
+    },
+    {
+      "id": "7",
+      "title": "User Testing and Feedback Analysis",
+      "description": "Organizing user testing sessions to gather valuable feedback and refine designs",
+      "language": "en"
+    },
+    {
+      "id": "8",
+      "title": "Design System and UI Guidelines",
+      "description": "Developing cohesive design systems to ensure visual and functional consistency",
+      "language": "en"
+    },
+    {
+      "id": "9",
+      "title": "Animation and Micro-Interactions",
+      "description": "Adding smooth animations and micro-interactions to enhance the user experience",
+      "language": "en"
+    },
+    {
+      "id": "10",
+      "title": "Accessible and Inclusive Design",
+      "description": "Designing accessible interfaces for all users, including those with disabilities",
+      "language": "en"
+    },
+    {
+      "id": "11",
+      "title": "Conception de site web / application UX / UI",
+      "description": "Créer des expériences numériques engageantes pour les sites web et les applications grâce à la conception UX/UI",
+      "language": "fr"
+    },
+    {
+      "id": "12",
+      "title": "Marketing stratégique et contenu créatif",
+      "description": "Élever les marques et l'engagement grâce au marketing stratégique et au contenu créatif",
+      "language": "fr"
+    },
+    {
+      "id": "13",
+      "title": "Solutions de site e-commerce multivendeur",
+      "description": "Déverrouiller le monde des sites e-commerce multivendeur",
+      "language": "fr"
+    },
+    {
+      "id": "14",
+      "title": "Élaboration de stratégies de marque et direction artistique",
+      "description": "Plonger dans l'élaboration de stratégies de marque complètes et offrir une expertise en direction artistique",
+      "language": "fr"
+    },
+    {
+      "id": "15",
+      "title": "Optimisation de l'expérience utilisateur",
+      "description": "Analyser et améliorer les parcours utilisateurs pour maximiser l'engagement et la conversion",
+      "language": "fr"
+    },
+    {
+      "id": "16",
+      "title": "Prototypage interactif",
+      "description": "Création de prototypes interactifs pour tester et valider les idées avant le développement final",
+      "language": "fr"
+    },
+    {
+      "id": "17",
+      "title": "Tests utilisateurs et analyse des retours",
+      "description": "Organiser des sessions de tests utilisateurs pour recueillir des feedbacks précieux et affiner les designs",
+      "language": "fr"
+    },
+    {
+      "id": "18",
+      "title": "Design system et guidelines UI",
+      "description": "Développement de systèmes de design cohérents pour assurer une uniformité visuelle et fonctionnelle",
+      "language": "fr"
+    },
+    {
+      "id": "19",
+      "title": "Animation et micro-interactions",
+      "description": "Ajout d'animations fluides et de micro-interactions pour améliorer l'expérience utilisateur",
+      "language": "fr"
+    },
+    {
+      "id": "20",
+      "title": "Design accessible et inclusif",
+      "description": "Concevoir des interfaces accessibles pour tous les utilisateurs, y compris les personnes en situation de handicap",
+      "language": "fr"
+    }
+  ],
+  "contact": [
+    
+  ]
+}

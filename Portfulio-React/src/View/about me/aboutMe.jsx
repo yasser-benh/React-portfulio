@@ -1,8 +1,7 @@
-import Buttons from "../../Buttons/Buttons";
-import yasser from "../../../../imgs/yasser.png";
+import Buttons from "../../Components/Buttons/Buttons";
 import "./aboutMe.css";
 import { useState } from "react";
-import PrograssBar from "./prograss-bar/prograss-bar";
+import PrograssBar from "../../Components/prograss-bar/prograss-bar";
 
 export default function AboutMe() {
   const linksAboutMeArr = [
@@ -26,56 +25,56 @@ export default function AboutMe() {
   const aboutDetails = [
     {
       id: 0,
-      title: "HTML/CSS",
+      title: "Figma / Adobe XD",
       bar: <PrograssBar classname="prograss-bar-fill-1" />,
       type: "mainSkill",
     },
     {
       id: 0,
-      title: "JavaScript",
+      title: "Adobe PhotoShop",
       bar: <PrograssBar classname="prograss-bar-fill-2" />,
       type: "mainSkill",
     },
     {
       id: 0,
-      title: "ReactJs",
+      title: "Adobe Illustrator",
       bar: <PrograssBar classname="prograss-bar-fill-3" />,
       type: "mainSkill",
     },
 
     {
       id: 1,
-      title: "java",
+      title: "Adobe AfterEffect",
       bar: <PrograssBar classname="prograss-bar-fill-3" />,
       type: "awards",
     },
     {
       id: 1,
-      title: "python",
+      title: "Blender",
       bar: <PrograssBar classname="prograss-bar-fill-1" />,
       type: "awards",
     },
     {
       id: 1,
-      title: "c++",
+      title: "Davinci Resolve",
       bar: <PrograssBar classname="prograss-bar-fill-2" />,
       type: "awards",
     },
     {
       id: 2,
-      title: "Btp Maintiennce industruel",
+      title: "Vedio Editing",
       duree: "Duration:  2014 - 2016",
       type: "education",
     },
     {
       id: 2,
-      title: "BTS Maintuience industuels [automatisme]",
+      title: "UI/UX Desgin",
       duree: "Duration:  2016 - 2019",
       type: "education",
     },
     {
       id: 2,
-      title: "Front-end developer",
+      title: "Graphice Desginer",
       duree: " Duration: 2023 - 2024",
       type: "education",
     },
@@ -83,6 +82,7 @@ export default function AboutMe() {
   const [activeBtn, setActiveBtn] = useState(0);
 
   const buttonsSelected = (index) => {
+    if(index ===activeBtn)return
     setActiveBtn(index === activeBtn ? null : index);
   };
 
@@ -123,14 +123,15 @@ export default function AboutMe() {
           <div className="prograss-bar-container">
             {aboutDetails
               .filter((details) => details.id === activeBtn)
-              .map((fdetails) => (
-                <div>
+              .map((fdetails , index) => (
+                <div key={index}>
                   <h3>{fdetails.title}</h3>
                   {fdetails.bar}
                   <p>{fdetails.duree}</p>
                 </div>
               ))}
           </div>
+          
         </div>
       </div>
     </>

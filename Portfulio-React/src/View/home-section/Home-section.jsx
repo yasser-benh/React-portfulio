@@ -1,12 +1,12 @@
 
-import Buttons from '../../Buttons/Buttons';
+
 import { HiOutlineDownload } from "react-icons/hi";
-import Software from '../../software-section/software-section'
 import './home-section.css'
+import Buttons from "../../Components/Buttons/Buttons";
 
 
 export default function Home () { 
-    return (<div className='home-main-container'>
+    return (<>
         <div className="home-container">
             <div className="home-description">
                 <h4>Welcome to my Portfolio</h4>
@@ -25,5 +25,5 @@ export default function Home () {
 
         </div>
         
-    </div>)
+    </>)
 }

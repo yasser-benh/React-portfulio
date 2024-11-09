@@ -1,0 +1,13 @@
+{
+    "Home":"Accueil",
+    "AboutMe":"À propos de moi",
+    "Services":"Services",
+    "Blog":"Blog",
+    "ContactMe":"Contactez-moi",
+    "chat": "Discutons",
+    "sericesPage": {
+        "title": "Explorer mes compétences en ",
+        "titleSpan":"design",
+        "description": "Nous transformons vos idées en un projet web distinctif qui vous inspire et captive vos clients"
+}
+}

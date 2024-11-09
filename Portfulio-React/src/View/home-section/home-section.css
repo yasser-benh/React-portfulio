@@ -1,0 +1,48 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+    margin: 3rem;
+ 
+
+}
+
+.home-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem auto;
+    width: min-content;
+}
+.home-description h1 {
+    font-size: 3rem;
+
+}
+.home-description span {
+    color: #0077FF;
+}
+
+.home-desctiption-buttons {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    max-width: min-content;
+}
+
+.home-img-container {
+    height: 90%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.home-img-container img {
+    width: 40rem;
+    height: 43rem;
+    border-radius:50%;
+    border: 1px solid #F2F2F2;
+}

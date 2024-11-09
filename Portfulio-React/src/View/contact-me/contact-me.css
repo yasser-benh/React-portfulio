@@ -15,7 +15,6 @@
     
 }
 .contact-me-details {
-    background-color: violet;
     width: 30%;
     height: 70%;
     border-radius: 10px;
@@ -45,7 +44,7 @@
     margin: 4rem;
     background-color: #0077ffc2;
     border-radius: 10px;
-    height: 50%;
+    height: 600px;
 
 
 }
@@ -53,13 +52,15 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+    width: 40%;
 }
 .contact-me-inputs Input {
     height: 3rem;
     outline: none;
 }
 Input:focus {
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 .full-name-inputs {
     display: flex;
@@ -79,12 +80,23 @@ Input:focus {
     width: 100%;
     height: 3rem;
 }
+
+.textArea-input {
+    width: 100%;
+    color: red;
+
+}
+.checkbook-container {
+    color: red;
+}
 .checkbox {
     color: white ;
+
 }
 .checkbox-terms {
     text-decoration: underline;
     color: #063b77;
+
 }
 .contact-me-submit {
     width: 50%;
